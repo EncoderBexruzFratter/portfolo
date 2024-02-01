@@ -1,0 +1,147 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#hoverbox:hover #hover1 {
+    left: 0;
+}
+
+#hover1 {
+    transition: all .5s;
+}
+
+#trans1 {
+    transition: all .3s;
+}
+
+#trans1:hover {
+    -moz-transform: translate(-20px, -20px);
+    -webkit-transform: translate(-20px, -20px);
+    -o-transform: translate(-20px, -20px);
+    -ms-transform: translate(-20px, -20px);
+    transform: translate(-20px, -20px);
+}
+
+#trans2 {
+    transition: all .3s;
+}
+
+#trans2:hover {
+    -moz-transform: translate(0px, -20px);
+    -webkit-transform: translate(0px, -20px);
+    -o-transform: translate(0px, -20px);
+    -ms-transform: translate(0px, -20px);
+    transform: translate(0px, -20px);
+}
+
+#trans3 {
+    transition: all .3s;
+}
+
+#trans3:hover {
+    -moz-transform: translate(20px, -20px);
+    -webkit-transform: translate(20px, -20px);
+    -o-transform: translate(20px, -20px);
+    -ms-transform: translate(20px, -20px);
+    transform: translate(20px, -20px);
+}
+
+#trans4 {
+    transition: all .3s;
+}
+
+#trans4:hover {
+    -moz-transform: translate(-20px, 20px);
+    -webkit-transform: translate(-20px, 20px);
+    -o-transform: translate(-20px, 20px);
+    -ms-transform: translate(-20px, 20px);
+    transform: translate(-20px, 20px);
+}
+
+#trans5 {
+    transition: all .3s;
+}
+
+#trans5:hover {
+    -moz-transform: translate(0px, 20px);
+    -webkit-transform: translate(0px, 20px);
+    -o-transform: translate(0px, 20px);
+    -ms-transform: translate(0px, 20px);
+    transform: translate(0px, 20px);
+}
+
+#trans6 {
+    transition: all .3s;
+}
+
+#trans6:hover {
+    -moz-transform: translate(20px, 20px);
+    -webkit-transform: translate(20px, 20px);
+    -o-transform: translate(20px, 20px);
+    -ms-transform: translate(20px, 20px);
+    transform: translate(20px, 20px);
+}
+
+.icon-trans {
+    transition: all .3s;
+}
+
+.icon-trans:hover {
+    -moz-transform: translate(0px, -20px);
+    -webkit-transform: translate(0px, -20px);
+    -o-transform: translate(0px, -20px);
+    -ms-transform: translate(0px, -20px);
+    transform: translate(0px, -10px);
+}
+
+.hiddeedede {
+    -moz-transform: translate(-750px, 0px);
+    -webkit-transform: translate(-750px, 0px);
+    -o-transform: translate(-750px, 0px);
+    -ms-transform: translate(-750px, 0px);
+    transform: translate(-750px, 0px);
+    transition: all .5s;
+}
+
+.trans-none {
+    -moz-transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    transform: translate(0px, 0px);
+    transition: all .5s;
+}
+
+#img-skale0 {
+    transition: all .3s;
+}
+
+#img-skale0:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#img-skale2 {
+    transition: all .3s;
+}
+
+#img-skale2:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+#img-skale1 {
+    transition: all .3s;
+}
+
+#img-skale1:hover{
+    -moz-transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
